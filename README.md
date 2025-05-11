@@ -34,8 +34,16 @@ A RESTful API for a social network web application where users can share their t
    ```bash
    cd social-network-api
    npm install
-   npm start
+   
+3. Create a `.env` file (recommended) in the root directory to store environment variables:  
+
+   ```env
+   MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
    ```
+
+If you prefer not to use a .env file, you can set the MONGODB_URI directly as an environment variable in your shell:
+
+   export MONGODB_URI="mongodb://localhost:27017/socialNetworkDB" ```
 
 ## Usage
 
