@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+
+      /* Language and Environment */
+      "target": "ES2020" /* Specify ECMAScript target version. */,
+
+      /* Modules */
+      "rootDir": "src" /* Specify the root folder within your source files. */,
+
+      /* Emit */
+      "outDir": "dist" /* Specify an output folder for all emitted files. */,
+      // "noEmitOnError": true /* Do not emit outputs if any type checking errors were reported. */,
+
+      /* Modules */
+      "module": "ESNext" /* Specify what module code is generated. */,
+      "moduleResolution": "Bundler" /* Use Node.js module resolution algorithm. */,
+
+      /* JavaScript Support */
+      "allowJs": true /* Allow JavaScript files to be compiled. */,
+      "checkJs": true /* Report errors in .js files. */,
+
+      /* Interop Constraints */
+      "esModuleInterop": true /* Emit additional JS to ease support for importing CommonJS modules. */,
+      "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. */,
+      "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+
+      /* Type Checking */
+      "strict": true, /* Enable all strict type checking options. */
+      "noUnusedLocals": true, /* Report errors on unused locals. */
+      "noUnusedParameters": true, /* Report errors on unused locals and parameters. */
+      "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+      "exactOptionalPropertyTypes": true, /* Ensure that no optional property type is widened to a non-optional type. */
+      "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+      "noImplicitOverride": true, /* Report error on overriding class methods that do not correctly override a base class method. */
+      "useUnknownInCatchVariables": true, /* Default catch variables are 'any'. Use 'unknown' instead. */
+    },
+    "include": [
+      "src"
+    ]
+  }
